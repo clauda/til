@@ -1,0 +1,14 @@
+Clojure/clojura/.idea/
+Clojure/clojura/target
+Clojure/clojura/classes
+Clojure/clojura/checkouts
+profiles.clj
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+/.lein-*
+/.nrepl-port
+.hgignore
+.hg/
+
