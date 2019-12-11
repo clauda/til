@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a41c8a6f-a463-4713-983e-222e33a674f7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1UdMpm4O2rCeIk6SMAL3IZ46HTo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="ReplState" timestamp="1576033029659">{:repl-history {:ide [], :local [{:command &quot;6&quot;, :offset 1, :ns &quot;hospital.core&quot;}], :remote []}}</component>
+  <component name="RunManager" selected="Clojure REPL.REPL for hospital">
+    <configuration name="REPL for hospital" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="hospital" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="fixLineNumbers" value="false" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hospital.logic-test" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="hospital" />
+      <setting name="path" value="$PROJECT_DIR$/test/hospital/logic_test.clj" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/test/hospital" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Clojure REPL.REPL for hospital" />
+        <item itemvalue="Clojure Application.hospital.logic-test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a41c8a6f-a463-4713-983e-222e33a674f7" name="Default Changelist" comment="" />
+      <created>1575682203749</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575682203749</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="326" y="103" width="624" height="514" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576030386809">
+      <screen x="182" y="0" width="1098" height="720" />
+    </state>
+    <state x="326" y="103" width="624" height="514" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/148.720.1024.576/182.0.1098.720@182.0.1098.720" timestamp="1576030386809" />
+    <state width="619" height="108" key="GridCell.Tab.0.bottom" timestamp="1576032914017">
+      <screen x="182" y="0" width="1098" height="720" />
+    </state>
+    <state width="619" height="108" key="GridCell.Tab.0.bottom/148.720.1024.576/182.0.1098.720@182.0.1098.720" timestamp="1576032914017" />
+    <state width="905" height="102" key="GridCell.Tab.0.bottom/148.720.1024.576/67.27.1213.693@67.27.1213.693" timestamp="1575948046075" />
+    <state width="619" height="108" key="GridCell.Tab.0.center" timestamp="1576032914017">
+      <screen x="182" y="0" width="1098" height="720" />
+    </state>
+    <state width="619" height="108" key="GridCell.Tab.0.center/148.720.1024.576/182.0.1098.720@182.0.1098.720" timestamp="1576032914017" />
+    <state width="905" height="102" key="GridCell.Tab.0.center/148.720.1024.576/67.27.1213.693@67.27.1213.693" timestamp="1575948046075" />
+    <state width="619" height="108" key="GridCell.Tab.0.left" timestamp="1576032914017">
+      <screen x="182" y="0" width="1098" height="720" />
+    </state>
+    <state width="619" height="108" key="GridCell.Tab.0.left/148.720.1024.576/182.0.1098.720@182.0.1098.720" timestamp="1576032914017" />
+    <state width="905" height="102" key="GridCell.Tab.0.left/148.720.1024.576/67.27.1213.693@67.27.1213.693" timestamp="1575948046075" />
+    <state width="619" height="108" key="GridCell.Tab.0.right" timestamp="1576032914017">
+      <screen x="182" y="0" width="1098" height="720" />
+    </state>
+    <state width="619" height="108" key="GridCell.Tab.0.right/148.720.1024.576/182.0.1098.720@182.0.1098.720" timestamp="1576032914017" />
+    <state width="905" height="102" key="GridCell.Tab.0.right/148.720.1024.576/67.27.1213.693@67.27.1213.693" timestamp="1575948046075" />
+    <state x="147" y="2" width="1090" height="693" key="SettingsEditor" timestamp="1576031191268">
+      <screen x="182" y="0" width="1098" height="720" />
+    </state>
+    <state x="147" y="2" width="986" height="715" key="SettingsEditor/148.720.1024.576/182.0.1098.720@182.0.1098.720" timestamp="1576031191268" />
+    <state x="67" y="19" width="1090" height="693" key="SettingsEditor/148.720.1024.576/67.27.1213.693@67.27.1213.693" timestamp="1575948025636" />
+  </component>
+</project>
