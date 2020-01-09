@@ -1,4 +1,4 @@
-defmodule Stones do
+defmodule Intro.Core do
   @moduledoc """
   Game of Stones.
   """

@@ -1,6 +1,6 @@
-defmodule Game do
+defmodule Intro.Game do
   def play(stones \\ 30) do
-    Stones.start(stones)
+    Intro.Core.start(stones)
     start!()
   end
 

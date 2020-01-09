@@ -1,8 +1,8 @@
-defmodule Play do
+defmodule Intro.Play do
   def main(args \\ []) do
     args
     |> parse_args
-    |> Game.play()
+    |> Intro.Game.play()
   end
 
   defp parse_args(args) do

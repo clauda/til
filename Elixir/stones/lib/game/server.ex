@@ -1,4 +1,4 @@
-defmodule Stones.GameServer do
+defmodule Game.Server do
   @moduledoc """
   Game of Stones version using GenServer.
   """
@@ -40,8 +40,7 @@ defmodule Stones.GameServer do
               stones_taken > stones do
     {
       :reply,
-      {:error,
-       "You can take from 1 to 3 stones, and this number cannot \n
+      {:error, "You can take from 1 to 3 stones, and this number cannot \n
        exceed the total count of stones in the pile!"},
       {player, stones}
     }
@@ -61,49 +60,3 @@ defmodule Stones.GameServer do
   defp next(1), do: 2
   defp next(2), do: 1
 end
-
-defmodule Stones.GameClient do
-  def play(stones \\ 30) do
-    Stones.GameServer.start(stones)
-    start!()
-  end
-
-  defp start! do
-    case Stones.GameServer.stats do
-      {player, stones} ->
-        IO.puts("Starting the game! It's player #{player} turn.
-        There are #{stones} stones in the pile.")
-    end
-
-    run()
-  end
-
-  defp take({count, _}), do: count
-  defp take(:error), do: 0
-
-  def ask do
-    IO.gets("\nPlease take from 1 to 3 stones:\n")
-    |> String.trim()
-    |> Integer.parse()
-    |> take()
-  end
-
-  defp run do
-    case Stones.GameServer.take(ask()) do
-      {:next_turn, player, stones} ->
-        IO.puts("\nPlayer #{player} turns next. Stones: #{stones}")
-        run()
-
-      {:winner, winner} ->
-        IO.puts("\nPlayer #{winner} wins!!!")
-
-      {:error, reason} ->
-        IO.puts("\nThere was an error: #{reason}")
-        run()
-    end
-  end
-end
-
-
-# Usage: $ elixir server.exs
-Stones.GameClient.play(10)
